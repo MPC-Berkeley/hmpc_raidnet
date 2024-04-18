@@ -50,6 +50,8 @@ source grbpath.sh
 ```
 
 # Training RAID-Net
+## Configuration:
+The default configuration file is data/configs/params_N14.yaml. Change the root directory in the configuration files to appropriate paths in your local machine manually.
 ## Data collection:
 ```
 python scripts/data_collect.py -config_dir <path_to_parameter_config_yaml>
