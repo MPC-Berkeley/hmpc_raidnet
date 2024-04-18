@@ -11,7 +11,7 @@ binary_pred: True #CA Dual
 compare_with_mlp: True #Train an mlp model and update ca_mlp_model_dir if you wish to compare 
 
 # Change these directories to your local folders
-root_dir: /home/mpc/L4SMPC/
+root_dir: /home/mpc/hmpc_raidnet/
 
 #Import expert_trajectory_data directory (will be appended to root_dir above)
 eval_dataset_dir: data/expert_data/traffic_env_exp_demo_N_14_N_TV_3_test_data.pkl
