@@ -1,0 +1,22 @@
+#Model Parameters
+hidden_size: 128
+num_layers: 6
+batch_size: 1024
+
+#Environment Parameters
+N: 14 #Make sure that this matches with the evaluated RAID-Net
+reduced_mode: True
+normalize_obs: True
+binary_pred: True #CA Dual
+compare_with_mlp: True #Train an mlp model and update ca_mlp_model_dir if you wish to compare 
+
+# Change these directories to your local folders
+root_dir: /home/mpc/L4SMPC/
+
+#Import expert_trajectory_data directory (will be appended to root_dir above)
+eval_dataset_dir: data/expert_data/traffic_env_exp_demo_N_14_N_TV_3_test_data.pkl
+eval_save_dir: data/models/model_evaluation/
+model_save_dir: data/models/
+model_dir: RAIDNET_BC_Jan_21_09_13_20_CA.pt
+ca_mlp_model_dir: MLP_BC_Jan_29_05_04_00_CA.pt
+

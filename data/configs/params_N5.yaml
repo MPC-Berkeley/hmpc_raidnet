@@ -1,0 +1,45 @@
+#Training Parameters
+N_ROLLOUTS: 200
+N_EPOCHS: 3000
+max_path_length: 120
+min_timesteps_per_batch: 70
+training_batch_size: 1024
+n_iter: 10
+max_replay_buffer_size: 1000000
+pretrain: False
+
+#RAID-NET Optimizer Parameters
+lr: 0.001
+optimizer: Adam
+
+#RAID-NET Parameters
+hidden_size: 128
+num_layers: 6
+model_save_period: 100
+
+#Evaluation parameter
+eval_max_path_length: 120
+N_eval: 100
+solver: grb
+
+#Environment Parameters
+N: 5
+reduced_mode: True #If True -> V=3, else -> V = 5
+normalize_obs: True
+binary_pred: True #CA Dual Prediction is binary. Always set to True
+
+# Change this to your local path
+root_dir: /home/mpc/L4SMPC/
+
+#Import expert_trajectory_data directory (will be appended to root_dir above)
+expert_trajectory_data: data/expert_data/<dataset_name>
+
+#Expert trajectory save directory
+eval_save_dir: data/models/evaluation/
+exp_traj_save_dir: data/expert_data/
+model_save_dir: data/models/
+
+#Use your local paths
+model_dir: data/models/<model_name>
+training_log_path: data/logs/
+
