@@ -26,7 +26,7 @@ This repository contains the implementation of the paper <em>"Scalable Multi-mod
 # Installation
 ## Clone repository
 ```
-git clone https://github.com/shn66/L4SMPC.git
+git clone https://github.com/MPC-Berkeley/hmpc_raidnet.git
 ```
 ## Build environment
 ```
