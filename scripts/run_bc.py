@@ -94,15 +94,15 @@ def main(args):
 
     if pretrain:
         save_file = None
-        if os.path.exists(config['model_dir']):
-            save_file = config['model_dir']
+        if os.path.exists(config['root_dir']+config['model_dir']):
+            save_file = config['root_dir']+config['model_dir']
         if save_file is not None:
             checkpoint = th.load(save_file)
             print('Model loaded: {}'.format(save_file))
             policy.load_state_dict(checkpoint['model_state_dict'])
         
         else:
-            print('Can not find the model for {}'.format(config['model_dir']))
+            print('Can not find the model for {}'.format(config['root_dir']+config['model_dir']))
     
     bc_learner = Train_BC(env,policy, policy_type,device=device, config=config,pretrain=pretrain,checkpoint=th.load(config['model_dir'])) #Run a single iteration of BC algorithm
 
