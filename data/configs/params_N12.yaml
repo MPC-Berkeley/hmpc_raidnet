@@ -29,7 +29,7 @@ normalize_obs: True
 binary_pred: True #CA Dual Prediction is binary. Always set to True
 
 # Change this to your local path
-root_dir: /home/mpc/L4SMPC/
+root_dir: /home/mpc/hmpc_raidnet/
 
 #Import expert_trajectory_data directory (will be appended to root_dir above)
 expert_trajectory_data: data/expert_data/<dataset_name>
