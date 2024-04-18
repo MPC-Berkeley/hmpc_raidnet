@@ -50,7 +50,7 @@ def main(args):
     policy=R_Tf_binary(observation_dim, 2*observation_dim, ca_num, env.smpc.N-1, num_layers//2, hidden_size//2, lambda_dim=lambda_dim,lambda_ubd = lambda_ubd,pred_mode=['ca','tertiary','binary'])
     device=th.device("cuda:0" if th.cuda.is_available() else "cpu")
     policy.to(device)
-    load(policy,config['model_dir'])
+    load(policy,config['root_dir']+config['model_dir'])
 
 
     #Define the save path
