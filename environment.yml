@@ -1,4 +1,4 @@
-name: l4smpc
+name: raidnet
 channels:
   - nvidia
   - conda-forge
