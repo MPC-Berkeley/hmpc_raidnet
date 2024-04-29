@@ -20,7 +20,11 @@ This repository contains the implementation of the paper <em>"Scalable Multi-mod
 <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/results_table.png" width="500">
 
 <strong>>12x Improvement in computation time of the motion planner!</strong>
+
+<img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/model_evaluation_v2_zoom.png" width="500">
+
 </div>
+
 
 
 # Installation
