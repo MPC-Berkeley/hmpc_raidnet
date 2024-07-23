@@ -17,6 +17,7 @@ This repository contains the implementation of the paper <em>"Scalable Multi-mod
 <div align="center">
 <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/eval_expert.gif" width="400" /> <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/eval_NN.gif" width="400">
 Baseline (Full MPC with collision avoidance constraints imposed for all multi-modal predictions)
+Baseline (Full MPC with collision avoidance constraints imposed for all multi-modal predictions)
 <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/results_table.png" width="500">
 
 <strong>>12x Improvement in computation time of the motion planner!</strong>
