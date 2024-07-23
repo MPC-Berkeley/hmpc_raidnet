@@ -23,7 +23,7 @@ This repository contains the implementation of the paper <em>"Scalable Multi-mod
             </td>
             <td style="border: none;" align="center">
                 <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/eval_NN.gif" width="400">
-                <div>Proposed: Full MPC with collision avoidance constraints imposed for all multi-modal predictions</div>
+                <div>Proposed: Sparse MPC with fewer collision avoidance constraints based on duality-based interaction predictions</div>
             </td>
         </tr>
     </table>
