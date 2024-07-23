@@ -15,6 +15,12 @@ This repository contains the implementation of the paper <em>"Scalable Multi-mod
 
 # Example Simulation Results
 <div align="center">
+      <figure style="display:inline-block; margin-right:20px;">
+        <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/eval_expert.gif" width="400" />
+        <figcaption>Baseline: Full MPC with collision avoidance constraints imposed for all multi-modal predictions</figcaption>
+    </figure>
+
+  
 <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/eval_expert.gif" width="400" /> <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/eval_NN.gif" width="400">
   
 Baseline                                      Proposed
