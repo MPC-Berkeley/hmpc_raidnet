@@ -15,7 +15,7 @@ This repository contains the implementation of the paper <em>"Scalable Multi-mod
 
 # Example Simulation Results
 <div align="center">
-   <table>
+   <table border=0>
         <tr>
             <td align="center">
                 <img src="https://github.com/shn66/L4SMPC/blob/IV2024/assets/eval_expert.gif" width="400" />
