@@ -53,7 +53,7 @@ conda activate raidnet
 pip install -e .
 ```
 ## Installing solvers
-Running the simulator requires Gurobi and IPOPT. For installing Gurobi, find the link <a href='https://www.gurobi.com/academia/academic-program-and-licenses/'>here</a>. For installing IPOPT, 
+Running the simulator requires Gurobi and IPOPT. For installing Gurobi, find the link <a href='https://www.gurobi.com/academia/academic-program-and-licenses/'>here</a>. For installing IPOPT (keep in mind that it comes pre-installed with Casadi), 
 ```
 wget -N -q "https://github.com/thomasfork/ipopt_linux/raw/main/ipopt-linux64.zip"
 unzip -o -q ipopt-linux64
