@@ -322,7 +322,7 @@ class Simulator():
                 a=u_opt[t]
                 
    
-            x[:,t+1]=self.ev.get_next(x[:,t+1], a)
+            x[:,t+1]=self.ev.get_next(x[:,t], a)
             x_glob[:,t+1]=self.routes[self.ev.cl](x[0,t+1])[:2]
             dx_glob[t]=self.droutes[self.ev.cl](x[0,t+1])[:2]
             psi= self.routes[self.ev.cl](x[0,t+1])[2]
