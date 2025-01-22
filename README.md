@@ -178,3 +178,17 @@ If you need to combine two datasets, you can use combine_dataset.py
 python scripts/combine_dataset.py -data1_dir <path_to_dataset1> -data2_dir <path_to_dataset2>
 ```
 
+# Citing this work:
+```
+@INPROCEEDINGS{10588718,
+  author={Kim, Hansung and Nair, Siddharth H. and Borrelli, Francesco},
+  booktitle={2024 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={Scalable Multi-modal Model Predictive Control via Duality-based Interaction Predictions}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1499-1504},
+  keywords={Recurrent neural networks;Stochastic processes;Computer architecture;Real-time systems;Planning;Computational efficiency;Collision avoidance},
+  doi={10.1109/IV55156.2024.10588718}}
+```
+
